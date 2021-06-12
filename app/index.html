@@ -1,0 +1,37 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta http-equiv="cleartype" content="on"/>
+
+    <title>CruzaPalabras</title>
+
+    <link rel="alternate icon" type="image/png" href="b/img/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="b/img/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500;700&family=Fira+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="b/css/basico.css">
+    <link rel="stylesheet" href="b/css/sitio.css">
+    
+  </head>
+  <body id="pagina">
+    <div id="menu">
+      <input id="palabra_cmp" type="text" value="relación y azar" acc="actualizar_cruzapalabras;iniciar;cruzapalabra_res">
+      <button id="recargar" acc="recargar;click">¡ otra ?</button>
+    </div>
+    <div id="cruzapalabra_res" acc="setear_cruzapalabras;iniciar;palabra_cmp"></div>
+
+    <script src="b/js/clase.jquery.js"></script>
+    <script src="b/js/clase.underscore.js"></script>
+    <script src="b/js/clase.acciones.js"></script>
+    <script src="b/js/clase.interfaz.js"></script>
+    <script src="b/js/clase.utiles.js"></script>
+    <script src="b/js/clase.cruzapalabras.js"></script>
+    <script src="b/lista_palabras.js"></script>
+    <script src="b/js/app.js"></script>
+  </body>
+</html>

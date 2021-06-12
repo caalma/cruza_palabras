@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+
+/* general */
+* {
+    font-family:'Asap', sans-serif; 
+}
+/* cuerpo del html */
+body { 
+  background: linear-gradient(to bottom right, #3af, #afe) fixed;
+}
+
+/* info */
+#cruzapalabra_res {
+  padding:50px;
+}
+#cruzapalabra_res span {
+  font-family:'Fira Mono', monospace;
+  font-size:2em;
+  width:30px;
+  height:40px;
+  overflow:hidden;
+  margin:2px;
+  background:#fff;
+  color:#000;
+  display:inline-block;
+  text-align:center;
+}
+#cruzapalabra_res p.fila {
+  width:34px;
+  overflow:hidden;
+  display:inline-block;
+  vertical-align:top;
+}
+#cruzapalabra_res p.fila span:empty {
+  background:transparent;
+}
+#cruzapalabra_res p.fila span.destacado {
+  background:#000;
+  color:#fff;
+  font-weight:900;
+}
+#menu {
+  position:fixed;
+  top:0;
+  right:0;
+  z-index:1000;
+  opacity:.8;
+}
+#menu:hover {
+  opacity:1;
+}
+#palabra_cmp {
+  width:400px;
+}
+#recargar {
+  cursor:pointer;
+}
+#palabra_cmp {
+  border:1px dashed #fff;
+  padding:10px;
+}
