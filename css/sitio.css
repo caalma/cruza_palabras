@@ -60,3 +60,20 @@ body {
   border:1px dashed #fff;
   padding:10px;
 }
+
+a.github_repositorio {
+    position:fixed;
+    bottom:5px;
+    left:5px;
+    opacity:.6;
+    overflow:hidden;
+    background-image:url(../img/github_face.svg);
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    background-position:center;
+    width:30px;
+    height:30px;
+}
+a.github_repositorio:hover {
+    opacity:1;
+}
