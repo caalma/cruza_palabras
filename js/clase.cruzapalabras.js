@@ -4,7 +4,12 @@ var Cruzapalabras = {
   palabra : '',
   lista : [],
   setear_palabra : function(p){
-    if(p !== undefined) this.palabra = p.toLowerCase();
+      if(p !== undefined){
+          this.palabra = p.toLowerCase();
+          window.location.hash = p;
+      }
+
+
   },
   es_distinto : function(p){
     p = p.toLowerCase();
@@ -20,7 +25,7 @@ var Cruzapalabras = {
     return '<p class="'+e+'">'+ht.join('')+'</p>';
   },
   letras : function(t){
-    return t.split(''); 
+    return t.split('');
   },
   buscar : function(b){
     var r = [];
